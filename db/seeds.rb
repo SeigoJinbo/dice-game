@@ -67,7 +67,7 @@ seigo =
     email: 'seigo@gmail.com',
     password: '123456',
     name: 'Seigo',
-    dice: [1, 2, 3, 4, 5]
+    dice: [1, 2, 3, 4, 5],
     admin: true
   )
 
