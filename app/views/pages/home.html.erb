@@ -1,6 +1,9 @@
 <div class="home">
-  <%= image_tag "banner2.jpg", style: "width:100%;" %>
-  <h2 id="title">Liar's Dice</h2>
+  <%# <%= image_tag "banner2.jpg", style: "width:100%;" %>
+  <%# <h2>Liar's Dice, Let's Dice</h2> %>
+  <div id="banner">
+    <h2 id="title">Liar's Dice</h2>
+  </div>
   <% if current_user %>
     <% if current_user.sessions.any? %>
       <%= link_to "Current Game", game_url(current_user.sessions.first.game) %>
