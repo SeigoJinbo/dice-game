@@ -62,7 +62,7 @@
       </div>
     </div>
     <%# --------------------mod actions----------------------------- %>
-    <% if false %>
+    <% if current_user.admin == true %>
       <h2>Reset the game</h2>
       <%= simple_form_for(@game) do |f| %>
         <%= f.hidden_field :action, value: 'reset' %>
