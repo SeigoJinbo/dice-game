@@ -68,11 +68,12 @@ seigo =
     password: '123456',
     name: 'Seigo',
     dice: [1, 2, 3, 4, 5]
+    admin: true
   )
 
 user_avatar =
   URI.open(
-    'https://media-exp1.licdn.com/dms/image/C4D03AQFObj2fZk5h-Q/profile-displayphoto-shrink_400_400/0/1589424657368?e=1612396800&v=beta&t=h13HBzQn8n2xPw4gOUwx1RUh1pB47qVrOaP6ei2rniM'
+    'https://media-exp1.licdn.com/dms/image/C5603AQEQoApULokzvQ/profile-displayphoto-shrink_800_800/0/1615959376127?e=1622678400&v=beta&t=XboGTGQ3YaYimIMB2LKWQBxhwqtdQVIzn_xW5pVmZ-Y'
   )
 seigo.photo.attach(
   io: user_avatar, filename: 'user_avatar.png', content_type: 'image/png'

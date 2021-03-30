@@ -9,4 +9,5 @@ class User < ApplicationRecord
   has_many :sessions
   has_many :games_as_owner, class_name: 'Game'
   has_one_attached :photo
+  validates :name, presence: :true
 end
